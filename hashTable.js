@@ -39,6 +39,9 @@ class HashTable {
 
     return undefined;
   }
+
+  //METODO DELETE: Eliminar un registro (key, value) pasando solo la key como parámetro.
+  //METODO GET KEYS: Crear un método que devuelva todas las key almacenadas en la HashTable.
 };
 
 const myHashTable = new HashTable(50);
